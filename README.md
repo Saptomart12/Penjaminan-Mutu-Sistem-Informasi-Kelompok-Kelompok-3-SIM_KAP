@@ -1,14 +1,14 @@
-# Sistem Informasi Manajemen Kinerja Akademik Mahasiswa (SIMAK) 
+# Sistem Informasi Manajemen Kinerja Akademik Personal (SIM_KAP) 
 
 ## 📜 Deskripsi Singkat
 
-**SIMAK** adalah aplikasi web yang dirancang untuk membantu mahasiswa memantau, mengelola, dan mengevaluasi kinerja akademik mereka secara sistematis. Aplikasi ini berfungsi sebagai asisten pribadi untuk mencatat tugas, melacak nilai, menghitung IP semester, dan memberikan evaluasi agar mahasiswa dapat meningkatkan prestasi di semester berikutnya.
+**SIM_KAP** adalah aplikasi web yang dirancang untuk membantu mahasiswa memantau, mengelola, dan mengevaluasi kinerja akademik mereka secara sistematis. Aplikasi ini berfungsi sebagai asisten pribadi untuk mencatat tugas, melacak nilai, menghitung IP semester, dan memberikan evaluasi agar mahasiswa dapat meningkatkan prestasi di semester berikutnya.
 
 ---
 
 ## ✨ Fitur Utama
 
-Berikut adalah fitur-fitur utama yang ditawarkan oleh SIMAK:
+Berikut adalah fitur-fitur utama yang ditawarkan oleh SIM_KAP:
 
 | Fitur                   | Deskripsi                                                                                                                               |
 | :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |

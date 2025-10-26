@@ -1,66 +1,106 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sistem Informasi Manajemen Kinerja Akademik Personal (SIM_KAP) 
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 📜 Deskripsi Singkat
 
-## About Laravel
+**SIM_KAP** adalah aplikasi web yang dirancang untuk membantu mahasiswa memantau, mengelola, dan mengevaluasi kinerja akademik mereka secara sistematis. Aplikasi ini berfungsi sebagai asisten pribadi untuk mencatat tugas, melacak nilai, menghitung IP semester, dan memberikan evaluasi agar mahasiswa dapat meningkatkan prestasi di semester berikutnya.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Berikut adalah fitur-fitur utama yang ditawarkan oleh SIM_KAP:
 
-## Learning Laravel
+| Fitur                   | Deskripsi                                                                                                                               |
+| :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| 👤 **Login Pengguna** | Mahasiswa masuk menggunakan email/NIM dan kata sandi yang terverifikasi.                                                                  |
+| 📅 **Manajemen Semester** | Membuat, mengedit, dan menghapus data semester (Nomor Semester, Status Aktif/Selesai, IP Final).                                          |
+| 📚 **Manajemen Mata Kuliah**| Menambah, mengubah, atau menghapus mata kuliah per semester (Nama MK, Kode MK, SKS).                                                    |
+| ✍️ **Manajemen Tugas** | Menambah tugas baru per mata kuliah, mengatur tenggat waktu, deskripsi, dan menandai status penyelesaian (Selesai/Belum Selesai/Dinilai). |
+| 💯 **Input Nilai** | Memasukkan nilai untuk setiap tugas, UTS, dan UAS yang disimpan untuk analisis.                                                          |
+| 📊 **Perhitungan & Evaluasi** | Otomatis menghitung IP semester berdasarkan nilai yang dimasukkan. Menampilkan evaluasi kinerja dan distribusi nilai tiap semester.    |
+| 📄 **Laporan Kinerja** | Menampilkan riwayat IP per semester dalam bentuk tabel dan grafik. Laporan dapat diunduh dalam format PDF.                             |
+| 🚪 **Logout** | Keluar dari sistem dengan aman, mengakhiri sesi pengguna.                                                                                |
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🖼️ Tampilan Aplikasi
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+*[ Sisipkan screenshot tampilan utama aplikasi di sini. Unggah gambar ke repo kamu, lalu gunakan format ini: ]*
+`![Tampilan Dashboard SIMAK](link_ke_gambar_screenshot.png)`
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 💻 Teknologi yang Digunakan
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+* **Backend:** PHP, Laravel Framework
+* **Frontend:** HTML, CSS, JavaScript, Bootstrap 5
+* **Template Admin:** SB Admin 2
+* **Database:** MySQL (atau PostgreSQL)
+* **(Opsional) Charting:** Chart.js
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🚀 Cara Instalasi & Setup
 
-## Code of Conduct
+Berikut langkah-langkah untuk menjalankan proyek ini di komputer lokal:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1.  **Clone Repositori:**
+    ```bash
+    git clone [https://github.com/ldclabs/anda](https://github.com/ldclabs/anda)
+    cd nama-folder-proyek 
+    ```
 
-## Security Vulnerabilities
+2.  **Install Dependencies:**
+    Pastikan Anda sudah menginstal Composer dan Node.js/NPM.
+    ```bash
+    composer install
+    npm install 
+    npm run build 
+    ```
+    *(Jika Anda tidak menggunakan Vite/NPM untuk aset frontend, lewati `npm install` dan `npm run build`)*
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+3.  **Setup Environment File:**
+    Salin file `.env.example` menjadi `.env`.
+    ```bash
+    cp .env.example .env
+    ```
+    Buka file `.env` dan konfigurasikan koneksi database Anda (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 
-## License
+4.  **Generate Application Key:**
+    ```bash
+    php artisan key:generate
+    ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+5.  **Jalankan Migrasi Database:**
+    Perintah ini akan membuat tabel-tabel yang diperlukan di database Anda.
+    ```bash
+    php artisan migrate
+    ```
+    *(Opsional: Jika Anda punya data *seeder*, jalankan `php artisan db:seed`)*
+
+6.  **Jalankan Development Server:**
+    ```bash
+    php artisan serve
+    ```
+
+7.  **Buka Aplikasi:**
+    Buka browser Anda dan kunjungi alamat yang ditampilkan (biasanya `http://127.0.0.1:8000`).
+
+---
+
+## 👥 Anggota Kelompok
+
+Proyek ini dikembangkan oleh:
+
+| NIM       | Nama                             |
+| :-------- | :------------------------------- |
+| F52123012 | Gilang Aldiansyah                |
+| F52123016 | Salsabila Ramadhani Zen          |
+| F52123017 | Zharnativa Al Adiyah Nurba       |
+| F52123019 | Panji Angga Saputra              |
+| F52123028 | Sapto Mart Saputra Wicaksono     |
+
+---
+
+Semoga README ini sesuai dengan ekspektasi dosen kamu, bang! 👍

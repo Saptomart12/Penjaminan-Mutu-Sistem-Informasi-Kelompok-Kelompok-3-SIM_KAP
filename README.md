@@ -100,5 +100,3 @@ Proyek ini dikembangkan oleh:
 | F52123028 | Sapto Mart Saputra Wicaksono     |
 
 ---
-
-Semoga README ini sesuai dengan ekspektasi dosen kamu, bang! 👍

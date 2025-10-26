@@ -25,9 +25,7 @@ Berikut adalah fitur-fitur utama yang ditawarkan oleh SIM_KAP:
 
 ## 🖼️ Tampilan Aplikasi
 
-*[ Sisipkan screenshot tampilan utama aplikasi di sini. Unggah gambar ke repo kamu, lalu gunakan format ini: ]*
-`![Tampilan Dashboard SIMAK](link_ke_gambar_screenshot.png)`
-
+![Tampilan Dashboard SIMAK](https://github.com/Saptomart12/Penjaminan-Mutu-Sistem-Informasi_SI-A_Kelompok-3/blob/edca3cca40ad140338061540e08dac5487ba5e87/public/assets/images/dashboard-simak.png)
 
 ---
 

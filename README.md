@@ -34,8 +34,8 @@ Berikut adalah fitur-fitur utama yang ditawarkan oleh SIM_KAP:
 * **Backend:** PHP, Laravel Framework
 * **Frontend:** HTML, CSS, JavaScript, Bootstrap 5
 * **Template Admin:** SB Admin 2
-* **Database:** MySQL (atau PostgreSQL)
-* **(Opsional) Charting:** Chart.js
+* **Database:** MySQL
+* **Charting:** Chart.js
 
 ---
 
